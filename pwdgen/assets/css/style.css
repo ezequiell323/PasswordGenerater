@@ -1,0 +1,25 @@
+body {
+	background-color:gray;
+  padding: 50px;
+  font:white;
+}
+
+.container{
+    margin-top: 100px;
+    margin-bottom: 300px;
+    text-align: center;
+    background-color: #ccc;
+    border-style: solid;
+     border-color: orange;
+  }
+
+
+
+
+.textarea{
+  background-color: #ccc;
+  border-style: solid;
+  border-color: orange;
+ 
+}
+
