@@ -12,7 +12,9 @@ body {
     border-style: solid;
      border-color: orange;
   }
-
+.buttom{
+  margin: 50px;
+}
 
 
 
@@ -20,6 +22,6 @@ body {
   background-color: #ccc;
   border-style: solid;
   border-color: orange;
- 
+  width: 100%;
 }
 

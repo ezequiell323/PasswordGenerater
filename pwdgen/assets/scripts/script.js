@@ -55,27 +55,33 @@ function specialFunction() {
 }
 //create length
 function setLength(){
-    var userLength = document.getElementById("lengthInput").value;
+    var userLength = document.getElementById("lengthCheck").value;
+    console.log(userLength);
     
     if(userLength >128){
         alert("Max is 128 of characters")
         length=128;
-        document.getElementById("lengthInput").value;
+        
     }
     else if(userLength<8){
         alert("Min of 8")
-        length=128;
-        document.getElementById("lengthInput").value;
+        length=8;
+
+    } else{
+        length = userLength;
     }
-    else {
-        length=userLength;
-    }
-    console.log(userLength);
+
+    
+  
 }
 
 function password(){
-    var password=""
-    if(PullLeters.length<1){
+
+    setLength();
+
+    var password="";
+   
+     if(PullLeters.length<1){
         alert("Min one option");
     }
     else if(length==0){
